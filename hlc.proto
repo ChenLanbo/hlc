@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package hlc;
+
+message HybridLogicalClock {
+    int64 local_time = 1;
+    int64 causal_time = 2;
+}
